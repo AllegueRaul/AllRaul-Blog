@@ -4,7 +4,29 @@
 }
 h3{
     display: inline;
+    color: black;
+    transition: 0.15s;
+}
+h3:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.15s;
 }
 img{
-    width: 85%;
+    width: 85vh;
+}
+footer{
+    margin-top: 15%;
+    float: bottom;
+}
+
+a{
+    display: inline;
+    color: black;
+    transition: 0.15s;
+}
+a:hover{
+    cursor: pointer;
+    color: green;
+    transition: 0.15s;
 }
